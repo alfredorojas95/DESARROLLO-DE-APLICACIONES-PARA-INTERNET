@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Prueba Bootstrap</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+	
+	
+	<!-- Rejilla -->
+	<div class="contenedor">
+		<h1>Activiad Rejilla</h1>
+		<div class="row"> 
+			<div class="col-md-1 cuadrado"></div>
+			<div class="col-md-1 cuadrado"></div> 
+			<div class="col-md-1 cuadrado"></div> 
+			<div class="col-md-1 cuadrado"></div>
+			<div class="col-md-1 cuadrado"></div>
+			<div class="col-md-1 cuadrado"></div> 
+			<div class="col-md-1 cuadrado"></div> 
+			<div class="col-md-1 cuadrado"></div> 
+			<div class="col-md-1 cuadrado"></div>
+			<div class="col-md-1 cuadrado"></div> 
+			<div class="col-md-1 cuadrado"></div> 
+			<div class="col-md-1 cuadrado"></div> 
+		</div>
+
+		<div class="row">
+			<div class="col-md-8 cuadrado"></div> 
+			<div class="col-md-4 cuadrado"></div> 
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 cuadrado"></div> 
+			<div class="col-md-4 cuadrado"></div>
+			<div class="col-md-4 cuadrado"></div> 
+		</div>
+
+		<div class="row">
+			<div class="col-md-6 cuadrado"></div> 
+			<div class="col-md-6 cuadrado"></div> 
+		</div>
+
+
+			<!-- Formulario -->
+		<h1>Formulario</h1>
+		<form> <div class="form-group"> <label for="inputEmail">Email</label> <input type="email" class="form-control" placeholder="Email"> </div> <div class="form-group"> <label for="inputPassword">Contraseña</label> <input type="password" class="form-control" placeholder="Contraseña"> </div> <div class="checkbox"> <label><input type="checkbox">Recuerdame</label> </div>
+		<button type="submit" class="btn btn-primary">Entrar</button> </form>
+
+		<!-- Botones -->
+		<div>
+			<h1>Botones</h1>
+			<button type="button" class="btn btn-default">Default</button> <button type="button" class="btn btn-primary">Primary</button> <button type="button" class="btn btn-success">Success</button> <button type="button" class="btn btn-info">Info</button> <button type="button" class="btn btn-warning">Warning</button> <button type="button" class="btn btn-danger">Danger</button> <button type="button" class="btn btn-link">Link</button><br>
+		</div><br>
+
+
+
+			<!-- Button trigger modal -->
+		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+		  Launch demo modal
+		</button>
+
+		<!-- Modal -->
+		<h1>Modal</h1>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+		      </div>
+		      <div class="modal-body">
+		        ...
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save changes</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	
+
+		<!-- Dropdown -->
+		<h1>Dropdown</h1>
+		<div class="dropdown"> <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Tutorials <span class="caret"></span></button> <ul class="dropdown-menu" role="menu" aria-labelledby="menu1"> <li role="presentation"><a role="menuitem" href="#">HTML</a></li> <li role="presentation"><a role="menuitem" href="#">CSS</a></li> <li role="presentation"><a role="menuitem" href="#">JavaScript</a></li> <li role="presentation" class="divider"></li> <li role="presentation"><a role="menuitem" href="#">Hola</a></li> </ul> </div><br>
+
+
+		<!--  jumbotron -->
+		<div class="jumbotron"> <h1>Soy un Jumbotron!!!!</h1> <p>Lorem ipsum jumbotrones everywhere</p> <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> </div>
+
+
+		<!--  nav nav-tabs -->
+		<h1>NAV-TABS</h1>
+		<ul class="nav nav-tabs"> <li role="presentation" class="active"><a href="#">Home</a></li> <li role="presentation"><a href="#">Profile</a></li> <li role="presentation"><a href="#">Messages</a></li> </ul>
+
+		<!--  nav nav-pills -->
+		<ul class="nav nav-pills"> <li role="presentation" class="active"><a href="#">Home</a></li> <li role="presentation"><a href="#">Profile</a></li> <li role="presentation"><a href="#">Messages</a></li> </ul>
+
+
+
+		<nav role="navigation" class="navbar navbar-default"> <!-- Brand and toggle get grouped for better mobile display --> <div class="navbar-header"> <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a href="#" class="navbar-brand">Brand</a> </div> 
+
+
+		<!-- Collection of nav links and other content for toggling --> 
+		<div id="navbarCollapse" class="collapse navbar-collapse"> <ul class="nav navbar-nav"> <li class="active"><a href="#">Home</a></li> <li><a href="#">Profile</a></li> <li><a href="#">Messages</a></li> </ul> <ul class="nav navbar-nav navbar-right"> <li><a href="#">Login</a></li> </ul> </div></nav>
+		
+
+		<p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p> <p>Search icon: <span class="glyphicon glyphicon-search"></span></p> <p>Print icon: <span class="glyphicon glyphicon-print"></span></p>
+
+
+		<!-- /.modal -->
+		<h1>MODAL</h1>
+
+		<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

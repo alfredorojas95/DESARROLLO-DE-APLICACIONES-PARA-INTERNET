@@ -1,0 +1,19 @@
+
+.contenedor {
+	margin: 0 auto;
+	width: 400px;
+
+
+
+}
+.cuadrado {
+	border-color: red;
+	height: 30px;
+	border: 1px solid;
+	background-color: #1565C0;
+
+}
+h1 {
+	font-family: Palatino Linotype;
+	text-align: center;
+}
